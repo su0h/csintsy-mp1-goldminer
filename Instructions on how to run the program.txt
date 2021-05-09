@@ -1,0 +1,13 @@
+[HOW TO RUN THE PROGRAM]
+
+With Java JDK 8+ installed and set to PATH:
+Download link for Java JDK 15: https://www.oracle.com/ph/java/technologies/javase-jdk15-downloads.html
+
+1) Open terminal / command line (cmd) and go to directory folder "MCO1 [GOLD MINER]"
+2) Main class is View (.class file)
+3) Input each line below:
+
+javac --module-path "C:/Program Files/Java/<name of javafx folder>/lib" --add-modules=javafx.fxml,javafx.controls,javafx.media *.java
+java --module-path "C:/Program Files/Java/<name of javafx folder>/lib" --add-modules=javafx.fxml,javafx.controls,javafx.media View
+
+4) The program is now running, enjoy!
